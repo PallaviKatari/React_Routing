@@ -16,7 +16,7 @@ class App extends Component {
           <Routes>
             <Route path="signup" element={<Signup/>} />
             <Route path="login" element={<Login/>} />
-            <Route path="dashboard" element={<yDashboard/>} />
+            <Route path="dashboard" element={<Dashboard/>} />
             <Route path="/" element={<Home/>} />
           </Routes>
         

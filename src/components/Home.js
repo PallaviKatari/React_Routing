@@ -11,7 +11,11 @@ class Home extends Component {
         <br></br>
         <Link to="login">Login page</Link>
         <br></br>
-        <Link to="dashboard">Dashboard page</Link>
+        <Link to="dashboard">ComponentStyling page</Link>
+        <br></br>
+        <Link to="form">FormValidation page</Link>
+        <br></br>
+        <Link to="condrend">ConditionalRendering page</Link>
       </div>
     );
   }

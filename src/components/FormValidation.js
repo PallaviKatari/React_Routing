@@ -56,7 +56,6 @@ export default class Form extends Component {
         }
     };
 
-
     formObject = event => {
         //collaboration and debugging purposes, it’s always better to write the prevent function just below your function declaration. 
         //That way you won’t cause a bug by forgetting to put the prevent function.
@@ -67,7 +66,7 @@ export default class Form extends Component {
 
         switch (name) {
             case "name":
-                error.name = value.length < 5 ? "Name should be 5 characaters long" : "";
+                error.name = value.length < 5 ? "Name should be 5 characters long" : "";
                 break;
             case "email":
                 error.email = regularExpression.test(value)
@@ -76,7 +75,7 @@ export default class Form extends Component {
                 break;
             case "password":
                 error.password =
-                    value.length < 5 ? "Password should 5 characaters long" : "";
+                    value.length < 5 ? "Password should 5 characters long" : "";
                 break;
             default:
                 break;

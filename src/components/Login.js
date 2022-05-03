@@ -28,7 +28,7 @@ class Login extends Component {
       username: this.state.username,
       password: this.state.password
     };
-    console.log("Login " + userData.username + " " + userData.password);
+    console.log(userData.username + " has logged in successfully");
     
   };
   render() {

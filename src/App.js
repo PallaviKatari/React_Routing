@@ -9,6 +9,8 @@ import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import Form from "./components/FormValidation";
 import ConditionalRendering from "./components/ConditionalRendering";
+import Table from "./components/Fragments";
+import Destructure from "./components/Destructuring";
 class App extends Component {
   render() {
     return (
@@ -24,6 +26,8 @@ class App extends Component {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="form" element={<Form />} />
           <Route path="condrend" element={<ConditionalRendering />} />
+          <Route path="fragments" element={<Table />} />
+          <Route path="dest" element={<Destructure />} />
           <Route path="/" element={<Home />} />
         </Routes>
 

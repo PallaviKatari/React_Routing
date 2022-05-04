@@ -16,6 +16,10 @@ class Home extends Component {
         <Link to="form">FormValidation page</Link>
         <br></br>
         <Link to="condrend">ConditionalRendering page</Link>
+        <br></br>
+        <Link to="fragments">Fragments page</Link>
+        <br></br>
+        <Link to="dest">Destructure page</Link>
       </div>
     );
   }

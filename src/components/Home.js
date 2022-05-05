@@ -20,6 +20,8 @@ class Home extends Component {
         <Link to="fragments">Fragments page</Link>
         <br></br>
         <Link to="dest">Destructure page</Link>
+        <br></br>
+        <Link to="payment">Payment page</Link>
       </div>
     );
   }

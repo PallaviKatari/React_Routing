@@ -11,6 +11,7 @@ import Form from "./components/FormValidation";
 import ConditionalRendering from "./components/ConditionalRendering";
 import Table from "./components/Fragments";
 import Destructure from "./components/Destructuring";
+import Payment from "./components/Payment";
 class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class App extends Component {
           <Route path="condrend" element={<ConditionalRendering />} />
           <Route path="fragments" element={<Table />} />
           <Route path="dest" element={<Destructure />} />
+          <Route path="payment" element={<Payment />} />
           <Route path="/" element={<Home />} />
         </Routes>
 

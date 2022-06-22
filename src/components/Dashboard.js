@@ -8,31 +8,31 @@ class Dashboard extends Component {
     return (
       <div>
       <StudentList
-        name='Nischitha'
+        name='John'
         classNo='React'
         roll='01'
         addr='Hyderabad'
       />
       <StudentList
-        name='Rohan'
+        name='Peter'
         classNo='React'
         roll='02'
         addr='Karnataka'
       />
       <StudentList
-        name='Sangamesh'
+        name='Jancy'
         classNo='React'
         roll='03'
         addr='Bangalore'
       />
       <StudentList
-        name='Deepak'
+        name='Amy'
         classNo='React'
         roll='04'
         addr='Pune'
       />
       <StudentList
-        name='Sridhar'
+        name='Paul'
         classNo='React'
         roll='05'
         addr='Bangalore'

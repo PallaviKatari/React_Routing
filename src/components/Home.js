@@ -1,6 +1,7 @@
 // frontent/src/components/Home.js
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 class Home extends Component {
   render() {
@@ -22,6 +23,8 @@ class Home extends Component {
         <Link to="dest">Destructure page</Link>
         <br></br>
         <Link to="payment">Payment page</Link>
+        <br></br>
+        <Link to="hookform">React Hook Form page</Link>
       </div>
     );
   }

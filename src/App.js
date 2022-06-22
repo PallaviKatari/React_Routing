@@ -12,15 +12,11 @@ import ConditionalRendering from "./components/ConditionalRendering";
 import Table from "./components/Fragments";
 import Destructure from "./components/Destructuring";
 import Payment from "./components/Payment";
+import HookForm from "./components/ReactHookForm";
 class App extends Component {
   render() {
     return (
       <div>
-        <Home />
-        <br>
-        </br>
-        <br>
-        </br>
         <Routes>
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} />
@@ -30,6 +26,7 @@ class App extends Component {
           <Route path="fragments" element={<Table />} />
           <Route path="dest" element={<Destructure />} />
           <Route path="payment" element={<Payment />} />
+          <Route path="hookform" element={<HookForm />} />
           <Route path="/" element={<Home />} />
         </Routes>
 
